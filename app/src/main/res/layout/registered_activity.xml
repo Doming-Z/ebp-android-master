@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/re_acc"
+        android:hint="用户名"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/re_pwd"
+        android:hint="密码"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/re_acc"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/re_phone"
+        android:hint="手机号"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/re_pwd"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/zhuce"
+        android:text="注册"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/re_phone"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>
